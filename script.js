@@ -48,6 +48,9 @@ let x=function(e){
 				d1.innerHTML = string;
 				number_of_times_clicked++
 				}
+			else{
+				d2.innerHTML = `<div id="display2"><p>Max Characters Reached.</p></div>`;
+			}
 		}
 
 }
