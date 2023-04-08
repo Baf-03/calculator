@@ -1,0 +1,161 @@
+body{
+	background: #091921;
+	font-family: Comic Sans MS;
+}
+
+
+.container{
+	border-radius: 3%;
+	box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
+        inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+        0 15px 15px rgba(0, 0, 0, 0.3),
+        inset 0 15px 15px rgba(0, 0, 0, 0.3);
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color:#091921;
+	height :90%;
+	width:25%;
+	background-size: 100%;/*yae set kr center mae lasakta hon */
+	
+
+
+}
+#display2{
+	
+	height: 50%;
+	border-radius: 5%;
+	color: #C1BCBA;
+
+
+
+	
+}
+#display2 p {
+
+	border-radius: 5%;
+	font-size: 3rem;
+	position: absolute;
+	top:5%;
+  	right: 1.5vw;
+}
+#display12{
+	
+	height: 50%;
+	border-radius: 5%;
+	width: 20px;
+	color: #C1BCBA;
+
+
+
+
+	
+}
+#display12 i {
+	
+	top: 2%;
+	border-radius: 5%;
+	font-size: 2rem;
+	position: absolute;
+	right: 1.5vw;
+  
+}
+.AC{
+	background: red;
+	font-size: 30px;
+	width: 15%;
+	height: 10vh;
+	border-radius: 100%;
+	text-align: center;
+	margin: 1%;
+	color: #C1BCBA;
+}
+
+/*yae wo properties hain jo hour minute and second mae same hae*/
+.button{
+	background: #C1BCBA;
+	font-size: 30px;
+	width: 15%;
+	height: 10vh;
+	border-radius: 100%;
+	text-align: center;
+	margin: 1%;
+
+}
+.AC{
+	background: red;
+	
+	color: #C1BCBA;
+}
+
+
+
+}
+.zero{
+	bottom: 0;
+  	right: 0;
+	padding-left:31.5%;
+}
+.keys_portion{
+	width: 30vw;
+	position: absolute;
+  	top: 60%;
+  	left: 69%;
+	transform: translate(-50%, -50%);
+
+}
+
+/*-----------------------------responsive for ipads and mobiles-----------------*/
+@media  (max-width: 980px) {
+
+
+.container{
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color:#091921;
+	height :90%;
+	width:90%;
+}
+.keys_portion{
+	width: 90%;
+	position: absolute;
+  	top: 60%;
+  	left: 53%;
+	transform: translate(-50%, -50%);
+
+}
+#display2 p {
+	font-size: 2.5rem;
+  	bottom: 0;
+  	right: 15%;
+}
+
+#display12 i {
+	font-size: 1.5rem;
+	right: 15%;
+
+  	
+}
+.button{
+	background: #C1BCBA;
+	font-size: 30px;
+	width: 20%;
+	height: 10vh;
+	margin: 0	%;
+
+}
+.AC{
+	background: red;
+	color: #C1BCBA;
+}
+
+
+
+
+
+
+
+	}
